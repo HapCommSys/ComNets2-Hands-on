@@ -39,7 +39,25 @@ The `utils` file directory contains the scripts required for installation. In or
 2. Run with `./install_bmv2_dev.sh`, this can install the `bmv2`(with open the multi-queue for one egress port feature.), PS: this `*.deb` only suit for `xUbuntu_20.04`.
 
 3. Get the examples with `./get_src_test.sh`, will download the examples. The dir will be `examples/p4-demos`.
+   
+   - [ip-routing](./examples/p4-demos/ip-routing/)<br>
+   <small>This [demo](https://github.com/Mingyumaz/p4-demos/tree/dev/ip-routing) shows how to implement a basic IP routers with static routing entries using P4, BMv2 and Mininet. In this exercise, you'll learn the basic IPv4 packet forwarding and routring using P4. The switch will forwarding packets based on predefined rules.</small>
+
+   - [ip-routing-pro](./examples/p4-demos/ip-routing-pro/)<br>
+   <small>A complex [demo](https://github.com/Mingyumaz/p4-demos/tree/dev/ip-routing-pro) with ip-routing./small>
 
 ### Examples and exercises
 
 TODO
+
+
+# References
+
+- [P4-Open-Source-Programming-Language](https://p4.org/)<br>
+- [ComNetsEmu](https://git.comnets.net/public-repo/comnetsemu)<br>
+- [mininet](https://mininet.org/)<br>
+- [tutorials](https://github.com/p4lang/tutorials) from p4lang.<br>
+- [p4-learning](https://github.com/nsg-ethz/p4-learning) from Networked Systems Group (NSG), a research group in Computer Networks at ETH Zürich.<br>
+- [https://github.com/nsg-ethz/p4-utils](https://github.com/nsg-ethz/p4-utils) from NSG.<br>
+- [p4-demos](https://github.com/osinstom/p4-demos) from Tomasz Osiński.<br>
+
